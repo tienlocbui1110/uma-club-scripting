@@ -54,14 +54,14 @@ Example:
 python check_diff.py -p dist/data-2025-10-14.json -c dist/data-2025-10-15.json --threshold 250000
 ```
 
-## 🧠 Notes
+## Notes
 - Output JSON files are versionable and easy to compare.  
 - Recommended naming format: `data-YYYY-MM-DD.json`.  
 - You can automate extraction daily via `cron` (Linux/macOS) or **Windows Task Scheduler**.
 
 ---
 
-## 🪪 Credits
+## Credits
 This project is based on [JohnDoeAntler/uma-club-helper-bot](https://github.com/JohnDoeAntler/uma-club-helper-bot).  
 Original project licensed under [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.html).  
 Modifications and maintenance by [Loc Bui](https://github.com/tienlocbui1110).
