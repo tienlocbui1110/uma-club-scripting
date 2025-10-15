@@ -54,6 +54,16 @@ Example:
 python check_diff.py -p dist/data-2025-10-14.json -c dist/data-2025-10-15.json --threshold 250000
 ```
 
+## 🎥 Demo
+
+A sample clip is included in the [`demo/`](demo/) folder for testing.
+
+You can try extracting data directly from it:
+
+```bash
+python extract_club_fan.py demo/uma.mp4 -o dist/data-demo.json
+```
+
 ## Notes
 - Output JSON files are versionable and easy to compare.  
 - Recommended naming format: `data-YYYY-MM-DD.json`.  
