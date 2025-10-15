@@ -1,0 +1,35 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# --- Virtual environment ---
+venv/
+.env/
+env/
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Logs and temporary files ---
+*.log
+*.tmp
+*.bak
+
+# --- Project outputs ---
+dist/
+input/
+output/
+*.mp4
+*.avi
+*.mov
+*.json
+
+# --- OS-specific ---
+.DS_Store
+Thumbs.db
